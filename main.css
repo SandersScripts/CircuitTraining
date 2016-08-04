@@ -1,7 +1,29 @@
+@font-face {font-family: "Bangalore";
+    src: url("http://db.onlinewebfonts.com/t/53e85a85722dc719bb7176dbc3bab258.eot");
+    src: url("http://db.onlinewebfonts.com/t/53e85a85722dc719bb7176dbc3bab258.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/53e85a85722dc719bb7176dbc3bab258.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/53e85a85722dc719bb7176dbc3bab258.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/53e85a85722dc719bb7176dbc3bab258.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/53e85a85722dc719bb7176dbc3bab258.svg#Bangalore") format("svg");
+}
+
 html, body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+body {
+  font-family: 'Bangalore, Helvetica, sans-serif;
+  font-size: 1.25em;
+  color: #404040;
+  letter-spacing: -0.02rem;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: normal;
+  margin: 15px auto;
 }
 
 nav {
@@ -19,15 +41,51 @@ nav {
 nav ul {
   list-style-type: none;
   margin: auto;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 10px 20px;
+  margin: 5px 15px;
   opacity: 0.75;
 }
 
 nav ul li:hover {
   opacity: 1;
+}
+
+header {
+  height: 50%;
+  background: linear-gradient(180deg, rgba(166, 166, 166, 0.3), rgba(220, 220, 220, 0.6)), url('http://images.freeimages.com/images/previews/fb4/pc-circuit-1540102.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-align: center;
+}
+
+header .container {
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
+  color: white;
+}
+
+header h1 {
+  font-family: 'Bangalore', Helvetica, sans-serif;
+  font-size: 4em;
+  margin: auto;
+  line-height: 1.25em;
+  padding: 0;
+}
+
+#about {
+  text-align: center;
+}
+
+#schedule {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
 }
