@@ -96,6 +96,20 @@ header h3 {
 	font-family: 'Oswald', sans-serif;
 }
 
+#service ul {
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#service ul li {
+  max-width: 300px;
+  display: inline-block;
+  padding: 5px;
+  margin: 0px 15px;
+  text-align: left;
+}
+
 #about {
   text-align: center;
   background: linear-gradient(180deg, rgba(0, 128, 0, 0.9), rgba(0, 190, 0, 0.9));
