@@ -97,10 +97,13 @@ header h3 {
 }
 
 #service ul {
-  text-align: center;
-  list-style-type: none;
-  padding: 0px;
+  position:relative;
+  display: inline-block;  
+  list-style: none;
   width: 300px;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 
 #service ul li {
@@ -151,10 +154,13 @@ header h3 {
 }
 
 #contact ul {
+  position:relative;
+  display: inline-block;  
+  list-style: none;
+  width:300px;
   text-align: center;
-  list-style-type: none;
-  padding: 0px;
-  width: 300px;
+  margin: auto;
+  padding: 0;
 }
 
 #contact ul li {
