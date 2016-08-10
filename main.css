@@ -89,7 +89,7 @@ header h3 {
 #service {
   text-align: center;
   background: white;
-
+  padding-bottom:20px;
 }
 
 #service h1 {
@@ -110,6 +110,7 @@ header h3 {
   max-width: 300px;
   display: inline-block;
   padding: 5px;
+  padding-top:5px;
   margin: 0px 15px;
 }
 
@@ -135,6 +136,7 @@ header h3 {
 
 #schedule {
   text-align: center;
+  padding-bottom:20px;
 }
 
 #schedule h1 {
@@ -164,7 +166,7 @@ header h3 {
 }
 
 #contact ul li {
-  max-width: 300px;
+  max-width: 350px;
   display: inline-block;
   padding: 5px;
   margin: 0px 15px;
