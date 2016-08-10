@@ -115,11 +115,11 @@ header h3 {
   background: linear-gradient(180deg, rgba(0, 128, 0, 0.9), rgba(0, 190, 0, 0.9));
   color: white;
   height: 685px;
+  margin: 20px, 20px, 20px, 20px;
 }
 
 
 #about h1 {
-	margin: 20px, 20px, 20px, 20px;
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -138,6 +138,7 @@ header h3 {
 }
 
 #contact {
+  margin: 20px, 20px, 20px, 20px;
   text-align: center;
   background: linear-gradient(180deg, rgba(0, 128, 0, 0.9), rgba(0, 190, 0, 0.9));
   color: white;
@@ -146,7 +147,6 @@ header h3 {
 #contact h1 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
-	margin: 20px, 20px, 20px, 20px;
 }
 
 #contact ul {
