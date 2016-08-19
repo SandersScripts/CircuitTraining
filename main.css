@@ -42,7 +42,7 @@ nav {
 nav ul {
   list-style-type: none;
   margin: auto;
-  padding-left: 0px;
+  padding-right: 50px;
 }
 
 nav ul li {
@@ -76,7 +76,7 @@ header h1 {
   font-size: 3em;
   margin: auto;
   line-height: 1.25em;
-  padding: 0;
+  padding: 100;
   text-shadow: 5px 5px 20px black;
 }
 
